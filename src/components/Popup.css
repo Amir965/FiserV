@@ -1,0 +1,108 @@
+
+
+  .popup-box {
+  bottom: 1%;
+    position: fixed;
+    width: 100%;
+    top: 2%;
+    height: max-content;
+    left: 0;
+    min-height: 80vh;
+}
+ 
+.box {
+  position: relative;
+    width: 300px;
+    margin: 0 auto;
+    height: 60vh;
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid #999;
+    overflow: hidden;
+}
+ 
+.close-icon {
+  position: absolute;
+    width: 24px;
+    height: 24px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 20px;
+    right: -2px;
+}
+
+
+
+@media screen and (min-width:768px){
+   .popup-box {
+  bottom: 1%;
+    position: fixed;
+    width: 100%;
+    top: 2%;
+    height: max-content;
+    left: 0;
+    min-height: 80vh;
+}
+ 
+.box {
+  
+
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+    height: 70vh;
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid #999;
+    overflow: hidden;
+}
+ 
+.close-icon {
+  position: absolute;
+    width: 24px;
+    height: 24px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 20px;
+    right: -2px;
+}
+ 
+}
+
+@media screen and (min-width:1024px){
+    .popup-box {
+  bottom: 2%;
+    position: fixed;
+    width: 100%;
+    top: 8%;
+    height: max-content;
+    left: 0;
+    min-height: 70vh;
+}
+ 
+.box {
+  position: relative;
+    width: 400px;
+    margin: 0 auto;
+    height: 80vh;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #999;
+    overflow: hidden;
+}
+ 
+.close-icon {
+  position: absolute;
+    width: 24px;
+    height: 24px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 20px;
+    right: -2px;
+}
+
+
+
+}
+
+

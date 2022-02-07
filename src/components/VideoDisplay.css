@@ -1,0 +1,54 @@
+.tag-name{
+ width: 328px;
+background: black;
+margin: 0 auto;
+}
+.tag-para{
+font-family: Poppins;
+color: white;
+font-size: 8px;
+font-style: normal;
+font-weight: 600;
+line-height: 12px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 0px;
+height: 15px;
+
+}
+
+@media screen and (min-width:768px){
+.tag-name{
+    width:500px;
+    background: black;
+    margin: 0 auto;
+}
+.tag-para{
+height: 35px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 30px;
+
+    }
+    
+}
+
+@media screen and (min-width:1024px){
+    .tag-name{
+    width: 600px;
+    margin: 0 auto;
+    background: black;
+    }
+.tag-para{
+height: 38px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 40px;
+
+    }
+
+}
