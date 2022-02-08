@@ -56,11 +56,11 @@ const Message = (props) => {
         img4: videoImage4,
         img5: videoImage5,
       });
-      setDisc("1. How to get more repeat customers? (By Creating Offers)");
+      setDisc("1. How to get more repeat customers?");
     }
     if (num === "2") {
       // setVideoImage({ ...videoImage, img2: NowPlaying });
-      setDisc("2. How to get more repeat customers? (By Billing on Pharma)");
+      setDisc("2. How to get more repeat customers?");
       setVideoImage({
         ...videoImage,
         img1: videoImage1,
@@ -233,8 +233,10 @@ const Message = (props) => {
             <li>Personal app training by expert.</li>
             <li>Anytime callback and learn service.</li>
             <li>
-              Use pharma app and get cashback @ zero hidden charges.Check
-              Cashback Scheme.
+              Use pharma app and get cashback @ zero hidden charges.
+              <a href="https://fdapp.irevo.in/files/cashback-flyer.jpg">
+                Check Cashback Scheme.
+              </a>
             </li>
           </ul>
         </div>
