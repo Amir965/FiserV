@@ -1,10 +1,10 @@
 import React from "react";
 import "./VideoDisplay.css";
-import videoImage1 from "../assets/videoImage1.jpg";
-import videoImage2 from "../assets/videoImage2.jpg";
-import videoImage3 from "../assets/videoImage3.jpg";
-import videoImage4 from "../assets/videoImage4.jpg";
-import videoImage5 from "../assets/videoImage5.jpg";
+import videoImage1 from "../assets/videoImage1.png";
+import videoImage2 from "../assets/videoImage2.png";
+import videoImage3 from "../assets/videoImage3.png";
+import videoImage4 from "../assets/videoImage4.png";
+import videoImage5 from "../assets/videoImage5.png";
 
 // import Close from "../assets/Close.svg";
 

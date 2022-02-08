@@ -8,11 +8,11 @@ import video3 from "../assets/video3.mp4";
 import video4 from "../assets/video4.mp4";
 import video5 from "../assets/video5.mp4";
 import VideoDisplay from "./VideoDisplay";
-import videoImage1 from "../assets/videoImage1.jpg";
-import videoImage2 from "../assets/videoImage2.jpg";
-import videoImage3 from "../assets/videoImage3.jpg";
-import videoImage4 from "../assets/videoImage4.jpg";
-import videoImage5 from "../assets/videoImage5.jpg";
+import videoImage1 from "../assets/videoImage1.png";
+import videoImage2 from "../assets/videoImage2.png";
+import videoImage3 from "../assets/videoImage3.png";
+import videoImage4 from "../assets/videoImage4.png";
+import videoImage5 from "../assets/videoImage5.png";
 import NowPlaying from "../assets/NowPlaying2.png";
 import Popup from "./Popup";
 // import Form from "./Form";
@@ -56,11 +56,11 @@ const Message = (props) => {
         img4: videoImage4,
         img5: videoImage5,
       });
-      setDisc("1. How to get more repeat customers?");
+      setDisc("How to get more repeat customers?");
     }
     if (num === "2") {
       // setVideoImage({ ...videoImage, img2: NowPlaying });
-      setDisc("2. How to get more repeat customers?");
+      setDisc("How to get more repeat customers?");
       setVideoImage({
         ...videoImage,
         img1: videoImage1,
@@ -72,7 +72,7 @@ const Message = (props) => {
     }
     if (num === "3") {
       setVideoImage({ ...videoImage, img3: NowPlaying });
-      setDisc("3. How to increase repeat business from existing customers?");
+      setDisc("How to increase repeat business from existing customers?");
       setVideoImage({
         ...videoImage,
         img1: videoImage1,
@@ -84,7 +84,7 @@ const Message = (props) => {
     }
     if (num === "4") {
       setVideoImage({ ...videoImage, img4: NowPlaying });
-      setDisc("4. All in one solution for billing, payments, GST reports");
+      setDisc("All in one solution for billing, payments, GST reports");
       setVideoImage({
         ...videoImage,
         img1: videoImage1,
@@ -97,7 +97,7 @@ const Message = (props) => {
     if (num === "5") {
       setVideoImage({ ...videoImage, img5: NowPlaying });
       setDisc(
-        "5. All payments, One Solution! Collect Cash, Card, UPI at one place"
+        "All payments, One Solution! Collect Cash, Card, UPI at one place"
       );
       setVideoImage({
         ...videoImage,
@@ -150,10 +150,7 @@ const Message = (props) => {
               alt=""
               onClick={() => videoChanger(video1, "1")}
             />
-            <p>
-              1. How to get more repeat customers?
-              <br /> (By Creating Offers)
-            </p>
+            <p>How to get more repeat customers?</p>
           </div>
           <div className="questions">
             <img
@@ -162,10 +159,7 @@ const Message = (props) => {
               onClick={() => videoChanger(video2, "2")}
             />
 
-            <p>
-              2. How to get more repeat customers?
-              <br /> (By Billing on Pharma)
-            </p>
+            <p>How to get more repeat customers?</p>
           </div>
           <div className="questions">
             <img
@@ -174,7 +168,7 @@ const Message = (props) => {
               onClick={() => videoChanger(video3, "3")}
             />
 
-            <p>3. How to increase repeat business from existing customers?</p>
+            <p>How to increase repeat business from existing customers?</p>
           </div>
           <div className="questions">
             <img
@@ -183,7 +177,7 @@ const Message = (props) => {
               onClick={() => videoChanger(video4, "4")}
             />
 
-            <p>4. All in one solution for billing, payments, GST reports</p>
+            <p>All in one solution for billing, payments, GST reports</p>
           </div>
           <div className="questions">
             <img
@@ -193,8 +187,7 @@ const Message = (props) => {
             />
 
             <p>
-              5. All payments, One Solution! Collect Cash, Card, UPI at one
-              place
+              All payments, One Solution! Collect Cash, Card, UPI at one place
             </p>
           </div>
         </div>
@@ -233,7 +226,7 @@ const Message = (props) => {
             <li>Personal app training by expert.</li>
             <li>Anytime callback and learn service.</li>
             <li>
-              Use pharma app and get cashback @ zero hidden charges.
+              Use pharma app and get cashback @ zero hidden charges.&nbsp;&nbsp;
               <a href="https://fdapp.irevo.in/files/cashback-flyer.jpg">
                 Check Cashback Scheme.
               </a>
