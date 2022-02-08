@@ -60,7 +60,7 @@ const Message = (props) => {
     }
     if (num === "2") {
       // setVideoImage({ ...videoImage, img2: NowPlaying });
-      setDisc("How to get more repeat customers?");
+      setDisc("Make bills that attract repeat business!");
       setVideoImage({
         ...videoImage,
         img1: videoImage1,
@@ -159,7 +159,7 @@ const Message = (props) => {
               onClick={() => videoChanger(video2, "2")}
             />
 
-            <p>How to get more repeat customers?</p>
+            <p>Make bills that attract repeat business!</p>
           </div>
           <div className="questions">
             <img

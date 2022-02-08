@@ -49,7 +49,7 @@ function VideoDisplay({
         <button onClick={videoPlayPauseHandle}>&#10005;</button>
       </div>
       <div className="tag-name">
-        <p className="tag-para">Playing Video:{disc}</p>
+        <p className="tag-para">Playing Video: {disc}</p>
       </div>
     </>
   );

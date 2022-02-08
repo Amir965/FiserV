@@ -24,13 +24,14 @@ padding: 5px;
     margin: 0 auto;
 }
 .tag-para{
-height: 35px;
-    font-family: Poppins;
+height: 30px;
+    font-family: Arial;
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
     line-height: 30px;
-    padding: 5px;
+    text-align: center;
+    /* padding: 5px; */
 
     }
     
@@ -43,13 +44,14 @@ height: 35px;
     background: black;
     }
 .tag-para{
-height: 38px;
-font-family: Poppins;
+/* height: 38px; */
+font-family:Arial ;
 font-style: normal;
 font-weight: 600;
 font-size: 14px;
-line-height: 40px;
-padding: 5px;
+text-align: center;
+/* line-height: 40px; */
+/* padding: 5px; */
 
     }
 

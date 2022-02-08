@@ -107,7 +107,7 @@ color: #FFFFFF;
 font-size: 10px;
 font-weight: bold;
 font-style: normal;
-font-family: Roboto;
+font-family: Arial;
 background: #FF6600;
 border-radius: 5px;
 border: none;
@@ -121,10 +121,10 @@ width: 88px;
 }
 .list-section li{
     color: #FFFFFF;
-    font-size: 7px;
+    font-size: 9px;
     font-weight: 600;
     font-style: normal;
-    line-height: 12px;
+    line-height: 14px;
 }
 .list-section a{
     color: #FF6600;
@@ -242,7 +242,7 @@ border-radius: 8px;
 border: none;
 height:30px;
 width: 120px;
-font-family: Roboto;
+font-family: Arial;
 }
 .list-section{
     margin-top: -10px;
@@ -395,7 +395,7 @@ margin-left: 10px;
     border: none;
     height: 48px;
     width: 200px;
-    font-family: Roboto;
+    font-family: Arial;
 
     
 }

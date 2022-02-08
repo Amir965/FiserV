@@ -13,7 +13,7 @@
 .box {
   position: relative;
     width: 300px;
-    margin: 0 auto;
+    margin: 100px auto;
     height: 60vh;
     background: #fff;
     border-radius: 4px;
