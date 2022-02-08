@@ -17,14 +17,12 @@
     font-size: 16px;
     font-weight: 600;
     text-align: center;
-    font-family: Arial;
 }
 .welcome p{
 color: #666666;
 font-size: 10px;
 font-weight: 600;
 margin-top: -5px;
-font-family: Arial;
 /* margin-left: 20px;
 margin-right: 20px; */
 }
@@ -86,7 +84,6 @@ box-sizing: border-box;
     font-weight: 600;
     width: 50%;
     line-height: 15px;
-    font-family: Arial;
 
 }
 .layout{
@@ -100,7 +97,6 @@ box-sizing: border-box;
     font-weight: 600;
     color: #FFFFFF;
 margin-left: 16px;
-font-family: Arial;
 }
 .layout-section{
   display: flex;
@@ -112,7 +108,6 @@ color: #FFFFFF;
 font-size: 10px;
 font-weight: bold;
 font-style: normal;
-font-family: Arial;
 background: #FF6600;
 border-radius: 5px;
 border: none;
@@ -130,12 +125,10 @@ width: 88px;
     font-weight: 600;
     font-style: normal;
     line-height: 14px;
-    font-family: Arial;
 }
 .list-section a{
     color: #FF6600;
     font-weight: bolder;
-    font-family: Arial;
 }
 
 @media screen and (min-width:768px) {
@@ -159,14 +152,12 @@ text-align: center;
     font-size: 24px;
     font-weight: 600;
     text-align: center;
-    font-family: Arial;
 }
 .welcome p{
 color: #666666;
 font-size: 14px;
 font-weight: 600;
 margin-top: -10px;
-font-family: Arial;
 /* margin-left: 20px;
 margin-right: 20px; */
 }
@@ -224,7 +215,6 @@ margin: 0 auto;
     width:100%;
     margin-left:0px;
     margin-top: 5px;
-    font-family: Arial;
 
 }
 .layout{
@@ -238,7 +228,6 @@ margin: 0 auto;
     font-weight: 600;
     color: #FFFFFF;
 margin-left: 10px;
-font-family: Arial;
 }
 .layout-section{
  display: flex;
@@ -255,7 +244,6 @@ border-radius: 8px;
 border: none;
 height:30px;
 width: 120px;
-font-family: Arial;
 }
 .list-section{
     margin-top: -10px;
@@ -268,12 +256,10 @@ font-family: Arial;
     font-weight: 600;
     font-style: normal;
     line-height: 17px;
-    font-family: Arial;
 }
 .list-section a{
     color: #FF6600;
     font-weight: bolder;
-    font-family: Arial;
 }
     
 }
@@ -296,8 +282,7 @@ font-family: Arial;
     display: none;
 }    
 .desktop-banner{
-        /* height: 180px; */
-        height: 240px;
+        /* height: 240px; */
         display: block;
         min-height: 40vh;
 }
@@ -306,7 +291,7 @@ font-family: Arial;
  }  
 
 .desktop-banner img{
-    height: 100%;
+    /* height: 100%; */
     object-fit: fill;
     width: 100%;
 }
@@ -315,18 +300,16 @@ text-align: center;
 /* margin-top: -20px; */
     
 }
-.welcome h1{
+/* .welcome h1{
     font-size: 30px;
     font-weight: 600;
     text-align: center;
-    font-family: Arial;
-}
+} */
 .welcome p{
 color: #666666;
-font-size: 18px;
-font-weight: 600;
+font-size: 15px;
+/* font-weight: 600; */
 margin-top: -10px;
-font-family: Arial;
 /* margin-left: 20px;
 margin-right: 20px; */
 }
@@ -382,7 +365,6 @@ border-radius: 16px 16px 0px 0px;
     font-weight: 600;
     width: 100%;
     margin-top: 5px;
-    font-family: Arial;
 
 }
 .layout{
@@ -399,7 +381,6 @@ border-radius: 16px 16px 0px 0px;
     font-weight: 600;
     color: #FFFFFF;
 margin-left: 10px;
-font-family: Arial;
 }
 .layout-section{
     display: flex;
@@ -417,7 +398,6 @@ font-family: Arial;
     border: none;
     height: 48px;
     width: 200px;
-    font-family: Arial;
 
     
 }
@@ -432,12 +412,10 @@ font-family: Arial;
     font-weight: 600;
     font-style: normal;
     line-height: 20px;
-    font-family: Arial;
 }
 .list-section a{
     color: #FF6600;
     font-weight: bolder;
-    font-family: Arial;
 }
 
 }
