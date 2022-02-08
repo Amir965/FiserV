@@ -316,14 +316,14 @@ text-align: center;
     
 }
 .welcome h1{
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 600;
     text-align: center;
     font-family: Arial;
 }
 .welcome p{
 color: #666666;
-font-size: 20px;
+font-size: 18px;
 font-weight: 600;
 margin-top: -10px;
 font-family: Arial;
