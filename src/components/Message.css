@@ -56,6 +56,7 @@ border-radius: 8px 8px 0px 0px;
     margin-top: -10px;
     display: flex;
     flex-wrap: wrap;
+    cursor: pointer;
 }
 .questions{
     margin-top: 10px;
@@ -113,6 +114,7 @@ border-radius: 5px;
 border: none;
 height:20px;
 width: 88px;
+cursor: pointer;
 }
 .list-section{
     margin-top: -5px;
@@ -166,6 +168,7 @@ margin-right: 20px; */
  padding:10px; 
  margin-top: -15px;
  justify-content: space-between;   
+ cursor: pointer;
 }
 .questions{
 flex-direction:column;
@@ -244,6 +247,7 @@ border-radius: 8px;
 border: none;
 height:30px;
 width: 120px;
+cursor: pointer;
 }
 .list-section{
     margin-top: -10px;
@@ -316,6 +320,7 @@ margin-right: 20px; */
 .questions-wrapper{
 /* margin-top: -30px; */
 justify-content: space-between;
+cursor: pointer;
         
 }
 .questions  {
@@ -398,6 +403,7 @@ margin-left: 10px;
     border: none;
     height: 48px;
     width: 200px;
+    cursor: pointer;
 
     
 }
