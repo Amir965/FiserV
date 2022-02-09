@@ -115,6 +115,7 @@ border: none;
 height:20px;
 width: 88px;
 cursor: pointer;
+margin-top: 12px;
 }
 .list-section{
     margin-top: -5px;
@@ -376,12 +377,12 @@ border-radius: 16px 16px 0px 0px;
 }
 .layout{
     background: #666666;
-    margin-top: -20px;
+    /* margin-top: -20px; */
     /* height: 110px; */
     /* position: sticky;
     bottom: 0;
     width: 100%; */
-    /* min-height: 20vh; */
+    min-height: 20vh;
 }
 .layout p{
     font-size: 24px;
