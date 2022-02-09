@@ -1,7 +1,7 @@
 import React from "react";
 import "./Message.css";
 import MobileBanner from "../assets/MobileBanner.png";
-import DesktopBanner from "../assets/DesktopBanner.png";
+import DesktopBanner from "../assets/DesktopBanner.jpg";
 import video1 from "../assets/video1.mp4";
 import video2 from "../assets/video2.mp4";
 import video3 from "../assets/video3.mp4";
