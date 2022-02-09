@@ -249,6 +249,7 @@ border: none;
 height:30px;
 width: 120px;
 cursor: pointer;
+margin-top: 0px;
 }
 .list-section{
     margin-top: -10px;
@@ -407,6 +408,7 @@ margin-left: 10px;
     height: 40px;
     width: 160px;
     cursor: pointer;
+    margin-top: 0px;
 
     
 }
